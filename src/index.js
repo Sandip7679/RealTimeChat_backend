@@ -22,7 +22,7 @@ app.use(
   cors({
     // origin: "http://localhost:5173",
     origin: "https://realtimechatty.netlify.app",
-    credentials: false,
+    credentials: true,
   })
 );
 // app.use(cors());
