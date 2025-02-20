@@ -11,6 +11,7 @@ const io = new Server(server, {
     origin: ["https://realtimechatty.netlify.app"],
     // origin: "*",
     credentials: true,
+    transports: ["websocket", "polling"]
   },
 });
 
