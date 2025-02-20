@@ -38,11 +38,11 @@ app.use("/api/messages", messageRoutes);
 //     console.log('get request....')
 //   });
 // }
-app.get("*", (req, res) => {
-  // res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
-  console.log('get request....')
-  res.send('get request')
-});
+// app.get("*", (req, res) => {
+//   // res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+//   console.log('get request....')
+//   res.send('get request')
+// });
 app.get("/", (req, res) => {
   res.send("API Working")
 });
